@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-15776498-5"></script>
@@ -12,425 +11,245 @@
     gtag('config', 'UA-15776498-5');
   </script>
 
+  <link rel="canonical" href="https://anuradhajayatilaka.github.io/" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Anuradha Nishadi Jayatilaka - Procurement Executive">
+  <meta name="author" content="Anuradha Jayatilaka">
 
   <title>Anuradha Nishadi Jayatilaka</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="./favicon.ico" />
 
+  <style>
+    body {
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .profile-section {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: 50% 30%;
+    }
+    .main-content {
+      flex: 1;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      grid-auto-rows: min-content;
+    }
+    .info-section {
+      background: #f8f9fa;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease-in-out;
+      height: fit-content;
+    }
+    .leisure-section {
+      grid-row: span 2;
+    }
+    @media (max-width: 768px) {
+      .info-grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+      }
+      .leisure-section {
+        grid-row: auto;
+      }
+      .profile-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .profile-image {
+        margin-bottom: 20px;
+      }
+      .social-icons {
+        justify-content: center;
+      }
+    }
+    .info-section:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .info-section h3 {
+      color: #bd5d38;
+      margin-bottom: 20px;
+      font-size: 1.4rem;
+      border-bottom: 2px solid #bd5d38;
+      padding-bottom: 8px;
+    }
+    .info-section ul li {
+      margin-bottom: 15px;
+      padding-left: 0;
+      position: relative;
+    }
+    .info-section ul li:last-child {
+      margin-bottom: 0;
+    }
+    .info-section ul li strong {
+      color: #495057;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .info-section ul li br {
+      margin-bottom: 4px;
+    }
+    .info-section ul li:not(:last-child) {
+      border-bottom: 1px solid #e9ecef;
+      padding-bottom: 15px;
+    }
+    .social-icons {
+      margin-top: 20px;
+    }
+    .social-icons a {
+      margin-right: 15px;
+      font-size: 1.2em;
+      color: #6c757d;
+      transition: color 0.2s ease-in-out;
+    }
+    .social-icons a:hover {
+      color: #bd5d38;
+      text-decoration: none;
+    }
+    .cv-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .cv-link i {
+      font-size: 1.2em;
+    }
+    .info-section a {
+      color: #4169e1;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .info-section a:hover, .info-section a:focus {
+      color: #27408b;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
-<body id="page-top">
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Anuradha Jayatilaka</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="cv.pdf">Download CV</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#extra-curricular">Extra-curricular</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#achievements">Achievements</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="https://www.instagram.com/cholesterol_diaries/">Cholesterol Diaries</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Anuradha Nishadi
-          <span class="text-primary">Jayatilaka</span>
-        </h1>
-        <div class="subheading mb-5">No. 2/2/1, Udawela, Teldeniya [20900]· +94-812050194 (Home)·
+<body>
+  <div class="container">
+    <div class="profile-section">
+      <img src="img/profile.jpg" alt="Anuradha Jayatilaka" class="profile-image">
+      <div class="main-content">
+        <h1>Anuradha Nishadi <span class="text-primary">Jayatilaka</span></h1>
+        <div class="subheading mb-3">
+          Procurement Executive at <a href="https://ipd.lk/">IPD Colombo</a><br>
           <a href="mailto:anuradha.n.jayatilaka@gmail.com">anuradha.n.jayatilaka@gmail.com</a>
         </div>
-	
-	<p class="lead mb-5"><b><a href="cv.pdf">Download CV</a></b></a>
-
-        <p class="lead mb-5">Hi! I am a <b>Procurement Executive</b> at <a href="https://ipd.lk/">IPD Colombo</a>, where I first joined as a Junior Executive in Procurement in 2022. Previously, I was a Logistics Solutions Intern at <a href="https://advantis.world/3pl/">Hayles Advantis 3PL Plus</a> in 2021. I graduated with a BSc (honors) in Management and Information Technology from the <a href="https://science.kln.ac.lk/depts/im/">Univeristy of Kelaniya</a> in 2022. 
-          </p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/anuradhajayatilaka/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/AnuradhaJayatilaka">
-            <i class="fab fa-github"></i>
-          </a>
-          <!-- <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a> -->
-          <a href="https://www.facebook.com/anuradha.jayatilaka">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Procurement Executive</h3>
-            <div class="subheading mb-3"><a href="https://ipd.lk/">IPD Colombo</a></div>
-            <!-- <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p> -->
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2024 - Now</span><br>
-            <span class="text-primary">Narahenpita, Sri Lanka</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Junior Executive in Procurement</h3>
-            <div class="subheading mb-3"><a href="https://ipd.lk/">IPD Colombo</a></div>
-            <!-- <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p> -->
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">May 2022 - July 2024</span><br>
-            <span class="text-primary">Narahenpita, Sri Lanka</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Logistics solutions intern</h3>
-            <div class="subheading mb-3"><a href="https://advantis.world/3pl/">Hayleys Advantic 3PL Plus</a></div>
-            <p>Responsibilities:
-              <ul>
-                <li>Developing Power BI dashboards for team heads.</li>
-                <li>Conducting a time and motion study to analyze the material handling equipment requirement.</li>
-                <li>Conducting research on fulfilment centers and new trends/applications/technologies in 3PL industry.</li>
-              </ul>
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2020 Sep - 2021 Mar</span><br>
-            <span class="text-primary">Kelaniya, Sri Lanka</span>
-          </div>
-        </div>
-
-
-
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">University of Kelaniya</h3>
-            <div class="subheading mb-3">Bachelor of Science in Management and Information Technology</div>
-            <div>Specializing in Operations and Supply Chain Management</div>
-            <p>GPA: 3.59</p>
-            <p>Thesis: Evaluation of the critical success factors affecting the implementation of shared-ride facility in the taxi services; A case study for Sri Lanka.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2017 - 2022 May</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Pushpadana Girls College, Kandy</h3>
-            <div class="subheading mb-3">GCE Advanced Level (Physical Sciences)</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2013 - Aug 2015</span>
-          </div>
-        </div>
-
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">IDM Sri Lanka, Kandy</h3>
-            <div class="subheading mb-3">Diploma in Information Technology</div>
-            <!-- <p>Combined Mathematics (B), Physics (B), Chemistry (A)</p> -->
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2012</span>
-          </div>
-        </div>
-
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Vision International School, Kandy</h3>
-            <div class="subheading mb-3">GCE Ordinary Level</div>
-            <p>5As of 9 subjects including Mathematics, English and ICT</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2001-2012</span>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Technical skills</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Programming languages: C++, C#</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Database technologies: mySql</li>
-        </ul>
-        <br><br>
-
-
-        <div class="subheading mb-3">Soft skills</div>
-        <ul>
-          <li>Fluent in English and Sinhala</li>
-          <li>Leadership skills and team management</li>
-          <li>Teamwork</li>
-          <li>Communication skills</li>
-          <li>Adaptability</li>
-          <li>Problem solving</li>
-        </ul>
-
-
-        <!-- <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
-        </ul> -->
-
-        <!-- <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-        </ul>
-      </div> -->
-    </section>
-
-    <hr class="m-0">
-
-
-
-    
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
-      <div class="w-100">
-        <h2 class="mb-5">Projects</h2>
-        <h3>Evaluation of the critical success factors affecting the implementation of shared-ride facility in the taxi services</h3>
-        <div class="resume-date text-md-right">
-          <span class="text-primary">2021</span>
-        </div>
-        <p>
-          <b>Techniques: </b>Statistical data analytics<br>
-          
+        <p class="lead">
+          Hi! I am a <b>Procurement Executive</b> at IPD Colombo, where I first joined as a Junior Executive in Procurement in 2022. 
+          Previously, I was a Logistics Solutions Intern at Hayles Advantis 3PL Plus in 2021. 
+          I graduated with a BSc (honors) in Management and Information Technology from the University of Kelaniya in 2022.
         </p>
-      <!-- </div>      -->
-
-
-
-      <h3>Web based shopping assistant system for super market</h3>
-      <div class="resume-date text-md-right">
-        <span class="text-primary">2020</span>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/anuradhajayatilaka/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/AnuradhaJayatilaka"><i class="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/anuradha.jayatilaka"><i class="fab fa-facebook-f"></i></a>
+          <a href="cv.pdf" class="cv-link"><i class="fas fa-file-pdf"></i> CV</a>
+        </div>
       </div>
-      <p>
-        <b>Technologies: </b>HTML, CSS, PHP, MySQL, JS<br>
-        [<a href="https://github.com/AnuradhaJayatilaka/shopping-assistant-system/blob/master/README.md">Readme</a>, <a href="https://github.com/AnuradhaJayatilaka/shopping-assistant-system">Code</a>, <a href="https://github.com/AnuradhaJayatilaka/shopping-assistant-system/blob/master/docs/proposal.pdf">Proposal</a>, <a href="https://github.com/AnuradhaJayatilaka/shopping-assistant-system/blob/master/docs/report.pdf">Report</a>, <a href="https://github.com/AnuradhaJayatilaka/shopping-assistant-system/blob/master/docs/presentation.pdf">Presentation</a>]
-      </p>
     </div>
 
-    </section>
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="extra-curricular">
-      <div class="w-100">
-        <h2 class="mb-5">Extra-curricular</h2>
-        <ul class="fa-ul mb-0">
+    <div class="info-grid">
+      <div class="info-section">
+        <h3>Professional Experience</h3>
+        <ul class="list-unstyled">
           <li>
-            <i class="fa fa-certificate" aria-hidden="true"></i>
-            Asian university games (Chess) - Participated in selections
+            <strong><a href="https://ipd.lk/" target="_blank" rel="noopener">IPD Colombo</a></strong>
+            <div class="d-flex justify-content-between">
+              <span>Procurement Executive</span>
+              <small class="text-muted">2024 - Present</small>
+            </div>
+            <div class="d-flex justify-content-between">
+              <span>Junior Executive in Procurement</span>
+              <small class="text-muted">2022 - 2024</small>
+            </div>
           </li>
           <li>
-            <i class="fa fa-certificate" aria-hidden="true"></i>
-            Vice-captain of University chess team (present)
-          </li>
-          <li>
-            <i class="fa fa-certificate" aria-hidden="true"></i>
-            Participated in SLUG(Sri Lanka University Games 2019)- Chess
-          </li>
-          <li>
-            <i class="fa fa-certificate" aria-hidden="true"></i>
-            Finance coordinator of HackxJr. Interschool hackathon(2019)
-          </li>
-          <li>
-            <i class="fa fa-certificate" aria-hidden="true"></i>
-            Girls’ Deputy Head Prefect (Vision International School-2011)
-          </li>
-          <li>
-            <i class="fa fa-certificate" aria-hidden="true"></i>
-            Member of MS Club university of Kelaniya
-          </li>
-          <li>
-            <i class="fa fa-certificate" aria-hidden="true"></i>
-            Active member of school (Pushpadana Girls’ College) Astronomical Society, Science society, ICT society, English Society and Buddhist Society.
+            <strong><a href="https://www.advantis.world/3pl" target="_blank" rel="noopener">Hayleys Advantis 3PL Plus</a></strong>
+            <div class="d-flex justify-content-between">
+              <span>Logistics Solutions Intern</span>
+              <small class="text-muted">2020 - 2021</small>
+            </div>
           </li>
         </ul>
-          
       </div>
-    </section>
 
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        I am interested in learning and working on Bussiness statistics.<br><br>
-        <b>Personal interests: </b><a href="https://www.instagram.com/cholesterol_diaries/">Baking</a>, Playing chess, Travelling, Social service, Watching movies<br>
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="achievements">
-      <div class="w-100">
-        <h2 class="mb-5">Achievements</h2>
-        <ul class="fa-ul mb-0">
+      <div class="info-section">
+        <h3>Education</h3>
+        <ul class="list-unstyled">
           <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Runner's up (higher education category) team at the 10th Kandy Open International Chess Festival</li>
+            <strong><a href="https://science.kln.ac.lk/depts/im/" target="_blank" rel="noopener">University of Kelaniya</a></strong>
+            <div class="d-flex justify-content-between">
+              <span>BSc in Management and IT</span>
+              <small class="text-muted">2017 - 2022</small>
+            </div>
+          </li>
           <li>
+            <strong><a href="https://pushpadana.edu.lk/" target="_blank" rel="noopener">Pushpadana Girls College, Kandy</a></strong>
+            <div class="d-flex justify-content-between">
+              <span>GCE Advanced Level</span>
+              <small class="text-muted">2013 - 2015</small>
+            </div>
+          </li>
           <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Dean’s list, Faculty of science</li>
+            <strong><a href="https://www.idmedu.lk/" target="_blank" rel="noopener">IDM Sri Lanka, Kandy</a></strong>
+            <div class="d-flex justify-content-between">
+              <span>Diploma in Information Technology</span>
+              <small class="text-muted">2012</small>
+            </div>
+          </li>
           <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            University Colours for outstanding performance in Chess</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            National level chess tournament victories</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Distinction and Credit passes for mathematics, science and ICT</li>
-
+            <strong>Vision International School, Kandy</strong>
+            <div class="d-flex justify-content-between">
+              <span>GCE Ordinary Level</span>
+              <small class="text-muted">2001 - 2012</small>
+            </div>
+          </li>
         </ul>
       </div>
-    </section>
 
+      <div class="info-section leisure-section">
+        <h3>Leisure</h3>
+        <ul class="list-unstyled">
+          <li>
+            <strong>Interests:</strong>
+            <div>
+              <a href="https://www.instagram.com/cholesterol_diaries/">Baking</a>, 
+              <a href="https://ratings.fide.com/profile/29930510/">Chess</a>, 
+              Travel
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
 </body>
-
 </html>
